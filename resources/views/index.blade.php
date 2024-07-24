@@ -49,10 +49,10 @@
          @foreach ($posts as $post)
         
               <tr>
-                <td><img src="{{ $post->category->image }}" alt="Category Image" style="max-width: 100px; max-height: 100px;"></td>
-                <td>{{ $post->title }}</td>
+                <td><img src="{{ $post->prodImageURL }}" alt="Category Image" style="max-width: 100px; max-height: 100px;"></td>
+                <td>{{ $post->ProdName }}</td>
                 <td>{{ $post->category->name }}</td>
-                <td>{{ $post->updated_at }}</td>
+                <td>{{ $post->prodLastModified }}</td>
                 <td>{{ $post->description }}</td>
               </tr>
               
