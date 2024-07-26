@@ -1,17 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<style>
+    body {
+            background-color: black;
+            color: white; /* This makes the default text color white */
+        }
+
+        .container {
+            background-color: white;
+            color: black; /* Ensure text inside the container is black */
+            padding: 20px; /* Optional: Add some padding for better appearance */
+            border-radius: 5px; /* Optional: Rounded corners */
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1); /* Optional: Add some shadow */
+        }
+
+        .table {
+            background-color: white;
+        }
+
+        .table th, .table td {
+            color: black; /* Text color inside the table */
+        }
+</style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Gestourage</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css" integrity="sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
-
-    <div class="container">
+<body style="background-color:black;">
+<img src="\img\web_elements\gesto.png" alt="Gestourage Logo" style="width: 100%; max-height: 400px; object-fit: cover;" class="product-image">
+    <div class="container" >
         
-        <h1 class="text-center pt-4 ">Gestou<strong class="text-danger">Rage</strong></h1>
+        
         <hr>
 
         <div class="row py-2">

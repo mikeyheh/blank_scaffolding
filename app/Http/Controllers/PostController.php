@@ -22,8 +22,8 @@ class PostController extends Controller
 
         $posts =Post::where(function($query) use ($search){
 
-            $query->where('ProdName','like',"%$search%")
-            ->orWhere('description','like',"%$search%");
+            $query->where('ProdName','like',"%$search%");
+           
 
             })
             ->orWhereHas('category',function($query) use($search){
